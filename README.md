@@ -8,4 +8,4 @@ Results showed on plot below:
 ![](https://github.com/KrzysiekJa/knn-on-health/blob/master/knn%20on%20breast%20cancer/knn%20plot.png "Plot KNN")
 
 Extra plot showing how important are particular factors:
-![](https://github.com/KrzysiekJa/knn-on-health/blob/master/knn%20on%20breast%20cancer/pca%20components.png "Ploy PCA"){:height="50%" width="50%"}
+<img src="https://github.com/KrzysiekJa/knn-on-health/blob/master/knn%20on%20breast%20cancer/pca%20components.png" width="300" height="300">

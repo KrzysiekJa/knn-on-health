@@ -5,7 +5,7 @@ Learning was made on Wisconsin dataset. Proces resulted in 0.967 accuracy.
 
 Results showed on plot below:
 
-![alt text](https://github.com/KrzysiekJa/knn-on-health/blob/master/knn%20on%20breast%20cancer/knn%20plot.png "Plot KNN")
+![](https://github.com/KrzysiekJa/knn-on-health/blob/master/knn%20on%20breast%20cancer/knn%20plot.png "Plot KNN")
 
 Extra plot showing how important are particular factors:
-![alt text](https://github.com/KrzysiekJa/knn-on-health/blob/master/knn%20on%20breast%20cancer/pca%20components.png "Ploy PCA")
+![](https://github.com/KrzysiekJa/knn-on-health/blob/master/knn%20on%20breast%20cancer/pca%20components.png "Ploy PCA")

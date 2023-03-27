@@ -1,7 +1,7 @@
 ## Breast cancer analysis problem
 
-I created a project focused on finding decision making model for predicting of breast cancer, with use of KNearestNeighbors method.
-Learning was made on Wisconsin dataset. Proces resulted in 0.967 accuracy.
+Created project is focused on finding decision making model (classifier) for predicting whether breast cancer is benign or malignant, with use of KNearestNeighbors method from scikit-learn package and own design perceptron. 
+Learning was made on Wisconsin dataset. Proces resulted in obtaining a model with predicting ability higher than 0.99 accuracy.
 
 ### Dataset information
 
@@ -38,7 +38,12 @@ Attribute Information:
 
 ### Initial insights
 
+At the beginning, the data was analyzed in terms of possible recognition of potential attributes and their associated values that could be used to carry out an effective classification decision-making process.
+
 ![](https://github.com/KrzysiekJa/knn-on-health/blob/master/knn%20on%20breast%20cancer/decission_tree.png)
+
+As we can see, for the classification decision-making process carried out on the data from the set, the most important is the Uniformity of Cell Size feature. Other important ones are: Bare Nuclei, Uniformity of Cell Shape and Clump Thickness.  
+E.g. as we can find that cell with Uniformity of Cell Size <= 2.50, Bare Nuclei <= 5.50, Clump Thickness <= 6.50 we can classify as benign; and cell with Uniformity of Cell Size > 2.50 and Uniformity of Cell Shape feature > 2.50 we can classify as malignant. 
 
 ### K-NearestNeighbors
 

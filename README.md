@@ -7,7 +7,7 @@ Learning was made on Wisconsin dataset. Proces resulted in obtaining a model wit
 
 ###### Name: Breast Cancer Wisconsin (Original) Data Set 
 
-[UCI Breast Cancer Wisconsin Dataset](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+%28original%29)
+Link: [UCI Breast Cancer Wisconsin Dataset](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+%28original%29)
 
 Samples arrive periodically as Dr. Wolberg reports his clinical cases. The database therefore reflects this chronological grouping of the data. This grouping information appears immediately below, having been removed from the data itself: 
 
@@ -40,6 +40,8 @@ Attribute Information:
 11. Class/Status: (2 for benign, 4 for malignant)
 
 ### Initial insights
+
+For research purpose first attribute (Sample code number) was removed because of no presented value for analysis goal.
 
 At the beginning, the data was analyzed in terms of possible recognition of potential attributes and their associated values that could be used to carry out an effective classification decision-making process.
 

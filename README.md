@@ -7,6 +7,8 @@ Learning was made on Wisconsin dataset. Proces resulted in obtaining a model wit
 
 ###### Name: Breast Cancer Wisconsin (Original) Data Set 
 
+[UCI Breast Cancer Wisconsin Dataset](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+%28original%29)
+
 Samples arrive periodically as Dr. Wolberg reports his clinical cases. The database therefore reflects this chronological grouping of the data. This grouping information appears immediately below, having been removed from the data itself: 
 
 Group 1: 367 instances (January 1989)  

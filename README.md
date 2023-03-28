@@ -17,6 +17,7 @@ Group 5: 48 instances (August 1990)
 Group 6: 49 instances (Updated January 1991)  
 Group 7: 31 instances (June 1991)  
 Group 8: 86 instances (November 1991)  
+
 ----------------------------------------- 
 Total: 699 points (as of the donated datbase on 15 July 1992) 
 
@@ -47,13 +48,15 @@ E.g. as we can find that cell with Uniformity of Cell Size <= 2.50, Bare Nuclei 
 
 ### K-NearestNeighbors
 
-Results showed on plot below:
+The usage of the K-NearestNeighbors algorithm brought the following classification results for the problem, which after transformation into 2D form (using PCA: 9 -> 2) are visible in the graph below.  
+To obtain a highly accurate classifier, the data was augmented using the BorderlineSMOTE algorithm, algorithm that performs data augmentation by creating synthetic data points based on the original data points.
 
 ![](https://github.com/KrzysiekJa/knn-on-health/blob/master/knn%20on%20breast%20cancer/knn_plot.png "Plot KNN")
 
-Extra plot showing how important are particular factors:
+Principal axes in feature space are representing the directions of maximum variance in the data. Plot below show how important are particular factors for performed/obtained PCA dimensionality reduction:  
 <p align="center"><img src="https://github.com/KrzysiekJa/knn-on-health/blob/master/knn%20on%20breast%20cancer/pca_components.png" width="750" height="700" /></p>
 
+The confusion matrix below shows the results of the classifier testing:
 ![](https://github.com/KrzysiekJa/knn-on-health/blob/master/knn%20on%20breast%20cancer/confusion_matrix.png)
 
 ### Perceptron

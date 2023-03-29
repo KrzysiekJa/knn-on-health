@@ -65,8 +65,19 @@ The confusion matrix below shows the results of the classifier testing:
 
 ### Perceptron
 
+For research purpose was used one another classificator based on perceptron idea.  
+To obtain a highly accurate classifier, the data was augmented using the SVMSMOTE algorithm, advanced version of SMOTE algorithm.
+
+![](https://github.com/KrzysiekJa/knn-on-health/blob/master/perceptron/perceptron_schema.png)
+
+The algorithm was trained using the idea of mini-batch SGD method. This allowed for a good efficient learning process as it's showed below.
+
 ![](https://github.com/KrzysiekJa/knn-on-health/blob/master/perceptron/learning_rate.png)
 
+Classification results after transformation into 2D form (PCA: 9 -> 2) are visible in the graph below, with decision boundary.
+
 ![](https://github.com/KrzysiekJa/knn-on-health/blob/master/perceptron/decision_boundary.png)
+
+The confusion matrix below shows the test results:
 
 ![](https://github.com/KrzysiekJa/knn-on-health/blob/master/perceptron/confusion_matrix.png)

@@ -52,6 +52,8 @@ E.g. as we can find that cell with Uniformity of Cell Size <= 2.50, Bare Nuclei 
 
 ### K-NearestNeighbors
 
+![](https://github.com/KrzysiekJa/knn-on-health/blob/master/knn%20on%20breast%20cancer/knn_schema.png)
+
 The usage of the K-NearestNeighbors algorithm brought the following classification results for the problem, which after transformation into 2D form (using PCA: 9 -> 2) are visible in the graph below.  
 To obtain a highly accurate classifier, the data was augmented using the BorderlineSMOTE algorithm, algorithm that performs data augmentation by creating synthetic data points based on the original data points.
 
